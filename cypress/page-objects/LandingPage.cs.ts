@@ -6,6 +6,7 @@ class LandingPageC {
     private loginBtn: string = "#login";
     private newUserBtn: string = "#newUser"; 
     private userNameValue: string = "#userName-value"; 
+    private logOutBtn: string = "#submit"; 
     
     
     public get mainHeaderM(): Cypress.Chainable<JQuery<HTMLElement>> {
@@ -30,7 +31,11 @@ class LandingPageC {
 
     public get userNameValueM(): Cypress.Chainable<JQuery<HTMLElement>> {
         return cy.get(this.userNameValue);
-    }    
+    }   
+    
+    public get logOutButtonM(): Cypress.Chainable<JQuery<HTMLElement>> {
+        return cy.get(this.logOutBtn);
+    } 
 }
 
 export const LandingPage = new LandingPageC();
