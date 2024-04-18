@@ -1,0 +1,11 @@
+{
+  "WelcomeLabel": "Welcome,",
+  "UserPassword": "Test123!",
+  "UserName": "lreyna",
+  "URL":"https://demoqa.com/login",
+  "FirstName":"Luis",
+  "LastName":"Reyna",
+  "WrongUserPassword":"sadfssdfdsfdsfdsf",
+  "WrongUserName":"jhkjhkgdgregeresgdrs",
+  "InvalidCredentials":"Invalid username or password!"
+}

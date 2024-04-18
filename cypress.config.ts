@@ -3,7 +3,7 @@ import { defineConfig } from "cypress";
 export default defineConfig({
   e2e: {
     setupNodeEvents(on, config) {
-      require('cypress-mochawesome-reporter/plugin')(on);      
+           
     },
     chromeWebSecurity: false,
     specPattern: 'cypress/e2e/**/*.{js,jsx,ts,tsx}',
