@@ -1,0 +1,12 @@
+{
+  "WelcomeLabel": "Welcome,",
+  "UserPassword": "Test123!",
+  "UserName": "lreyna",
+  "URL1":"https://demoqa.com/login",
+  "URL2":"http://uitestingplayground.com/loaddelay",
+  "FirstName":"Luis",
+  "LastName":"Reyna",
+  "WrongUserPassword":"sadfssdfdsfdsfdsf",
+  "WrongUserName":"jhkjhkgdgregeresgdrs",
+  "InvalidCredentials":"Invalid username or password!"
+}
